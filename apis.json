@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - LogMeIn",
+	"description": "This is a repository of logmein APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/logmein.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://logmein.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "LogMeIn",
+			"x-api-slug": "logmein",
+			"description": "LogMeIn, Inc. is a provider of software as a service and cloud-based remote connectivity services for collaboration, IT management and customer engagement, founded in 2003 and based in Boston, Massachusetts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg",
+			"humanURL": "http://www.LogMeInInc.com",
+			"baseURL": "https://api.getgo.com//G2W/rest/organizers",
+			"tags": "LogMeIn",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/logmein/master/_listings/logmein/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "LogMeIn",
+	"include": [
+		{
+			"name": "LogMeIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/logmein/master/_listings/logmein/apis.yaml"
+		}
+	]
+}
